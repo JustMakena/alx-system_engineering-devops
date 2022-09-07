@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(cut -cl |tr-d"ln")
+cut -c1 | paste -s -d ' '
